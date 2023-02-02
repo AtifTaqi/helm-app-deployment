@@ -6,7 +6,9 @@ import (
 )
 
 func indexHandler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "I am a GO application running inside Docker, in Atif Taqi's Macbook.")
+
+	fmt.Fprintf(w, "I am a GO application running inside Docker, it is running in Atif Taqi's Macbook.")
+
 
 }
 
